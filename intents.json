@@ -1,0 +1,20 @@
+{
+    "intents":
+    [
+        {
+            "intent": "greeting",
+            "patterns": ["hello", "hi", "good morning", "good evening", "hey"],
+            "responses": ["Hello! How can I help you?", "Hi there! What can I do for you?"]
+        },
+        {
+            "intent": "help",
+            "patterns": ["help", "support", "assist", "aid", "guide me"],
+            "responses": ["How can I assist you today?", "What do you need help with?"]
+        },
+        {
+            "intent": "farewell",
+            "patterns": ["bye", "goodbye", "see you later", "take care"],
+            "responses": ["Goodbye! Have a great day!", "See you later!"]
+        }
+    ]
+}
